@@ -1,0 +1,41 @@
+.ivhq-timepicker {
+
+  .time-selector {
+    z-index: 1048;
+    background-color: white;
+    position: absolute;
+    padding: 1rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 0.15rem;
+  }
+
+  .text-input {
+    border: none;
+    height: 100%;
+  }
+
+  .unit-select {
+    max-height: 5rem;
+    overflow: scroll;
+    list-style: none;
+    text-align: center;
+  }
+
+  .unit {
+    cursor: pointer;
+    border-radius: 0.15rem;
+
+    &:hover {
+      background: #DEF5CF;
+    }
+  }
+
+  .close-button {
+    cursor: pointer;
+  }
+
+  .unit.selected {
+    background: #DEF5CF;
+  }
+
+}
